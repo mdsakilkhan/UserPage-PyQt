@@ -2,7 +2,7 @@ import os
 from xml.etree import ElementTree
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-UserData_fileName = 'Users3.xml'
+UserData_fileName = 'Users.xml'
 UserData_filePath = os.path.abspath(os.path.join('Data', UserData_fileName))
 UserData_Tree = ElementTree.parse(UserData_filePath)
 UserData_Root = UserData_Tree.getroot()
@@ -12,7 +12,7 @@ ItemData_filePath = os.path.abspath(os.path.join('Data', ItemData_fileName))
 ItemData_Tree = ElementTree.parse(ItemData_filePath)
 ItemData_Root = ItemData_Tree.getroot()
 
-login_email = "email2"
+login_email = "email1"
 
 firstName = ''
 lastName = ''
